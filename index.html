@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landpage-Anime</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <div class="background">
+        <video loop autoplay muted class="background__video">
+            <source src="./src/video/background_video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="header">
+        <div class="header__content">
+            <img src="./src/images/Logos/logo-header.png" alt="tanjiro">
+            <div class="header__content__menu">
+                <button type="button">Abrir Menu</button>
+            </div>
+            <ul class="header__content__links">
+                <li class="header__content__links__itens">
+                    <a class="header__content__links__itens--item" href="#hero">Home</a>
+                </li>
+                <li class="header__content__links__itens">
+                    <a class="header__content__links__itens--item" href="#personagens">Personagens</a>
+                </li>
+                <li class="header__content__links__itens">
+                    <a class="header__content__links__itens--item" href="#video-play">Trailer</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="hero">
+        <div id="hero" class="hero__content">
+            <img class="hero__content--img" src="./src/images/hero/logo do filme.png" alt="logo do filme kimetsu no yaiba">
+            <h4 class="hero__content__info">
+                <span>2022</span>
+                <span class="hero__content__info--age">16+</span>
+                <span>2h 15min</span>
+                <span>Ação</span>
+            </h4>
+            <p>
+                No Japão, durante a Era Taisho (1912 - 1926), um jovem carvoeiro chamado Tanjiro Kamado tem a família assassinada por um demônio.
+                A única parente que sobreviveu é sua irmã mais nova, Nezuko.
+                No entanto, cai sob a garota uma maldição que, aos poucos, a transforma também num demônio.
+            </p>
+            <div class="hero__content__buttons">
+                <button class="hero__content__buttons__button">
+                    <a href="#video-play">Assistir trailer</a>
+                </button>
+                <button class="hero__content__buttons__button--buy">Comprar ingresso</button>
+            </div>
+        </div>
+        <div class="hero--image">
+            <img src="./src/images/hero/tanjiro.png"  alt="personagem tanjiro">
+        </div>
+    </main>
+    <section id="personagens" class="personagens">
+        <h2>Personagens</h2>
+        <div class="personagens__content">
+            <ul class="personagens__content__list">
+                <li class="personagens__content__list__item">
+                    <img class="personagens__content__list__item__img" src="./src/images/personagens/tanjiro001.webp" alt="tanjiro">
+                    <div class="personagens__content__info">
+                        <p>
+                            <ul>
+                                <li>Nome: Tanjiro Kamado</li>
+                                <li>Idade: 15 anos</li>
+                                <li>Técnica: respiração da água</li>
+                                <li>Especialidade: cabeçada</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+                <li class="personagens__content__list__item">
+                    <img src="./src/images/personagens/inosuke.png" alt="inosuke">
+                    <div class="personagens__content__info">
+                        <p>
+                            <ul>
+                                <li>Nome: Inosuke Hashibira</li>
+                                <li>Idade: 15 anos</li>
+                                <li>Técnica: respiração da fera</li>
+                                <li>Especialidade: elasticidade</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+                <li class="personagens__content__list__item">
+                    <img src="./src/images/personagens/nezuko.png" alt="nezuko">
+                    <div class="personagens__content__info">
+                        <p>
+                            <ul>
+                                <li>Nome: Nezuko Kamado</li>
+                                <li>Idade: 14 anos</li>
+                                <li>Técnica: Kekkijutsu</li>
+                                <li>Especialidade: ficar na caixa</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+                <li class="personagens__content__list__item">
+                    <img src="./src/images/personagens/zenitsu.png" alt="zenitsu">
+                    <div class="personagens__content__info">
+                        <p>
+                            <ul>
+                                <li>Nome: Zenitsu Agatsuma</li>
+                                <li>Idade: 16 anos</li>
+                                <li>Técnica: respiração do trovão</li>
+                                <li>Especialidade: lutar dormindo</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+                <li class="personagens__content__list__item">
+                    <img src="./src/images/personagens/tengen-PhotoRoom.png-PhotoRoom.png" alt="tengen uzui">
+                    <div class="personagens__content__info">
+                        <p>
+                            <ul>
+                                <li>Nome: Tengen Uzui</li>
+                                <li>Título: hashira do som</li>
+                                <li>Idade: desconhecida</li>
+                                <li>Técnica: respiração do som</li>
+                                <li>Especialidade: ninjutsu</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+                <li class="personagens__content__list__item">
+                    <img src="./src/images/personagens/gyutaro.webp" alt="gyutaro">
+                    <div class="personagens__content__info">
+                        <p>
+                            <ul>
+                                <li>Nome: Gyutaro</li>
+                                <li>Título: lua superior 6</li>
+                                <li>Idade: 126+</li>
+                                <li>Técnica: Kekkijutsu </li>
+                                <li>Especialidade: se arranhar</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="video-play" class="trailer">
+        <iframe style="display: flex; margin: 0px auto; border: 5px solid red; border-radius: 7px;" width="1024" height="520" src="https://www.youtube.com/embed/Uxt5tpiEf-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./src/images/hero/logo do filme.png" alt="logo do filme">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./src/images/Logos/globe.svg" alt="globo do mundo">
+                        <select>
+                            <option selected>Português</option>
+                            <option>English</option>
+                            <option>日本</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#">Sobre a Ufotable</a>
+                </li>
+            </ul>
+            <p>
+                ® 2023 kimetsu no Yaiba. Todos os direitos reservados. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p>
+                O anime é uma série japonesa de mangá shōnen escrita e ilustrada por Koyoharu Gotōge. O estúdio ufotable é o responsável por toda adaptação do mangá para o anime e produção dos episódios.
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+        $('.header__content__menu button').click(function() {
+        $('.header__content__links').slideToggle();
+        })
+    })
+    </script>
+</body>
+</html>
