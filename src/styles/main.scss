@@ -1,3 +1,16 @@
-body{
-    background-color: rgb(212, 0, 255);
+@use 'hero';
+@use 'about';
+@use 'events';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gotham SSm A','Gotham SSm B',Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
 }

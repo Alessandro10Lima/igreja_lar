@@ -1,0 +1,127 @@
+.event{
+    &--tck{
+        background-image: linear-gradient(90deg,#ffde59,#ff914d)
+    }
+
+    &__content{
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+
+        &__ticket{
+            background-color: #161616;
+            display: flex;
+            border-radius: 6px;
+            margin-bottom: 40px;
+        }
+
+        &__title{
+            color: #202020;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            padding-top: 80px;
+            border-bottom: 2px solid rgba( #000, 0.7);
+        }
+    }
+
+    &__ticket{
+        margin-right: 13.5%;
+
+        &__text{
+            color: #fff;
+            margin-left: 60px;
+            margin-top: 24px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 24px;
+        }
+    
+        &__info{
+            color: #fff;
+            font-size: 12px;
+            display: grid;
+            gap: 12px;
+            margin-left: 60px;
+
+        &__infos{
+            span{
+                background-color: #ff914d;
+                padding: 5px;
+                border-radius: 6px;
+                color: #000;
+                font-weight: 700;
+            }
+
+            i{
+                margin-right: 8px;
+                color: #ff914d;
+            }
+        }
+        }
+        
+    }
+
+    button{
+        color: #1a1a1a;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 40px;
+        width: 180px;
+        margin: 60px auto;
+        border: none;
+        border-radius: 30px;
+        background-image: linear-gradient(90deg, #ffde59, #ff914d);
+
+        &:hover{
+            background-image: linear-gradient(90deg, #ff7520, #ffdc51);
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .event{
+
+        &__content{
+            max-width: 90%;
+
+            &__title{
+                text-align: center;
+                padding-top: 50px;
+            }
+
+            &__ticket{
+                display: block;
+
+                img{
+                    width: 90%;
+                    border-radius: 3px;
+                    margin-top: 9px;
+                    margin-left: 16px;
+                }
+
+                .button{
+                    margin: 26px 80px;
+                }
+            }
+        }
+
+        &__ticket{
+            margin-right: 0%;
+
+            &__text{
+                font-size: 16px;
+                text-align: center;
+                margin: 30px auto;
+            }
+
+            &__info{
+                font-weight: bold;
+                font-size: 14px;
+                gap: 14px;
+                margin-left: 40px;
+            }
+        }
+    }
+}
