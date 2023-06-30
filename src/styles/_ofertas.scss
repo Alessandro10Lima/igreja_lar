@@ -1,0 +1,89 @@
+.ofertas{
+    padding-bottom: 80px;
+    padding-top: 30px;
+    // background-image: linear-gradient(90deg, #ffde59, #ff914d);
+    background-image: linear-gradient(1deg, #ffef34, #ff8400);
+
+    &__content{
+        margin: 0 auto;
+        max-width: 960px;
+        text-align: center;
+
+        .container{
+            padding: 0;
+
+            &__title{
+                color: #ffffff;
+                padding-top: 20px;
+                margin-bottom: 40px;
+                font-size: 50px;
+                font-family: Vollkorn, serif;
+                font-style: italic;
+            }
+        }
+    
+        .ofertas__text{
+            font-size: 18px;
+            width: 47vw;
+            margin: 0 auto;
+            color: #ffffff;
+
+            &__versiculo{
+                font-family: 'Courgette', cursive;
+                margin: 8px;
+            }
+
+            span{
+                font-family: 'Courgette', cursive;
+            }
+
+            &__description{
+                margin-top: 30px;
+                font-family: 'Vollkorn', serif;
+            }
+        }
+        .button{
+            color: #1a1a1a;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            height: 45px;
+            width: 150px;
+            margin: 20px auto;
+            border: none;
+            border-radius: 4px;
+            background-image: linear-gradient(90deg, #ffffff, #ffffff);
+
+            &:hover{
+                background-image: linear-gradient(259deg, #bbff37, #00ffaf);
+                color: white;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+        .ofertas{
+
+            &__content{
+                max-width: 90%;
+
+                .container{
+
+                    &__title{
+                        font-size: 40px;
+                        margin-bottom: 24px;
+                    }
+                }
+
+                .ofertas__text{
+                    width: 100%;
+                }
+
+                .button{
+                    border: 1px solid #ffb100;
+                }
+            }
+        }
+    }

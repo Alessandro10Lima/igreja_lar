@@ -1,6 +1,7 @@
 .event{
     &--tck{
-        background-image: linear-gradient(90deg,#ffde59,#ff914d)
+        // background-image: linear-gradient(90deg,#ffde59,#ff914d)
+        background-image: linear-gradient(360deg, #fff, #373737);
     }
 
     &__content{
@@ -13,6 +14,10 @@
             display: flex;
             border-radius: 6px;
             margin-bottom: 40px;
+
+            #second{
+                margin-right: 13.5%;
+            }
         }
 
         &__title{
@@ -25,8 +30,7 @@
         }
     }
 
-    &__ticket{
-        margin-right: 13.5%;
+    .event__ticket{
 
         &__text{
             color: #fff;
@@ -89,6 +93,8 @@
             &__title{
                 text-align: center;
                 padding-top: 50px;
+                color: #fff;
+                border-bottom: 2px solid rgba( #ff7b00, 0.7);
             }
 
             &__ticket{
@@ -102,18 +108,26 @@
                 }
 
                 .button{
-                    margin: 26px 80px;
+                    margin: 20px 35px;
+                    width: 80%;
+                    height: 50px;
+                    font-size: 20px;
                 }
             }
         }
 
         &__ticket{
             margin-right: 0%;
+            padding-right: 5px;
 
             &__text{
                 font-size: 16px;
-                text-align: center;
+                // text-align: center;
                 margin: 30px auto;
+            }
+
+            #txt{
+                text-align: center;
             }
 
             &__info{
