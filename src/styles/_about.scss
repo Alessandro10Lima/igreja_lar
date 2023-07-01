@@ -16,6 +16,10 @@
             border-bottom: 2px solid rgba( #ff7b00, 0.7);
         }
 
+        &__text--description{
+            font-size: 14px;
+        }
+
         img{
             border-radius: 3px;
             margin-top: 35px;
@@ -39,8 +43,9 @@
                 text-align: center;
                 color: #48514e;
 
-                &__title{
+                &--title{
                     text-align: center;
+                    font-size: 28px;
                 }
             }
         }

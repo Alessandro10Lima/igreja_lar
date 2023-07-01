@@ -1,0 +1,163 @@
+.contato{
+    padding-bottom: 80px;
+
+    .container{
+        padding-top: 80px;
+
+        h1{
+            color: #202020;
+            border-bottom: 2px solid #ff7b00b3;
+            margin: 50px 0;
+            padding: 0;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1024px;
+        margin-left: 110px;
+
+
+        img{
+            width: 100px;
+            height: 90px;
+        }
+
+        &__church{
+            h3{
+                font-size: 17px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            &__links{
+                list-style: none;
+                padding: 0;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: #4d4d4d;
+
+                        &:hover{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__midias{
+            h3{
+                font-size: 17px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            &__links{
+                list-style: none;
+                display: block;
+                justify-content: space-around;
+                padding-left: 0;
+                align-items: baseline;
+
+                li{
+                    font-size: 16px;
+                    margin-bottom: 12px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: #4d4d4d;
+                    }
+
+                    .bi-instagram{
+                        color: #ff1c63;
+                        padding: 0 8px;
+
+                        &:hover{
+                            color: #dd1453;
+                        }
+                    }
+
+                    .bi-youtube{
+                        color: red;
+                        padding: 0 16px;
+
+                        &:hover{
+                            color: #ec0000;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        &__endereco{
+            width: 360px;
+
+            h3{
+                font-size: 17px;
+                text-transform: uppercase;
+                font-weight: bold;
+
+                i{
+                    color: #686868;
+                }
+            }
+
+            a{
+                text-decoration: none;
+                color: #4d4d4d;
+
+                &:hover{
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .contato{
+        .container{
+            padding-top: 0px;
+            width: 90%;
+
+            h1{
+                text-align: center;
+                font-size: 28px;
+            }
+        }
+        .content{
+            display: block;
+            text-align: center;
+            margin-left: 0;
+
+            img{
+                display: none;
+            }
+
+            &__church{
+                padding-bottom: 12px;
+            }
+
+            &__midias{
+                padding-bottom: 12px;
+
+                &__links{
+                    display: block;
+
+                    li{
+                        padding-bottom: 6px;
+                        letter-spacing: 1px;
+
+                        .bi-youtube{
+                            padding-right: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
+}

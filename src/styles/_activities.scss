@@ -20,6 +20,7 @@
             width: 25%;
 
             .section-title{
+                font-size: 24px;
                 padding-top: 10px;
                 font-family: 'Vollkorn', serif;
 
@@ -29,8 +30,12 @@
             }
 
             img{
-                height: 50vh;
+                height: 45vh;
                 border: 1px solid #ff7b00b3; ;
+            }
+
+            p{
+                font-size: 14px;
             }
         }
     }
@@ -41,6 +46,7 @@
 
         .container{
             max-width: 90%;
+            padding: 40px 0;
 
             .content{
                 display: block;
@@ -49,12 +55,22 @@
             .row__title{
                 text-align: center;
                 margin-bottom: 10px;
+                font-size: 28px;
             }
     
             .col-md-4{
                 width: 100%;
                 text-align: center;
                 padding-bottom: 40px;
+
+                #modifica{
+                    max-width: 80%;
+                    margin: 12px auto;
+                }
+
+                p{
+                    font-size: 12px;
+                }
             }
         }
     }

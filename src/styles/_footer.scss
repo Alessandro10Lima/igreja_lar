@@ -1,0 +1,34 @@
+.footer{
+    background-color: black;
+
+    &__container{
+        margin: 0 auto;
+        text-align: center;
+        padding: 12px 0;
+        width: 960px;
+    }
+
+    &__logo{
+        width: 40px;
+    }
+
+    p{
+        color: silver;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width:767px){
+    .footer{
+
+        &__container{
+            max-width: 100%;
+            width: 80%;
+
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}

@@ -86,14 +86,20 @@
 
 @media (max-width: 767px){
     .event{
+        height: 170vh;
+
+        &--tck{
+            background-image: linear-gradient(180deg, #fff, #ffffff);
+        }
 
         &__content{
             max-width: 90%;
 
             &__title{
                 text-align: center;
-                padding-top: 50px;
-                
+                padding-top: 20px;
+                color: #202020;
+                font-size: 28px;
             }
 
             &__ticket{

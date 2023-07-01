@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 <body>
-    <header class="hero">
+    <header class="hero" id="home">
         <video loop autoplay muted class="hero__background">
             <source src="./videos/back-shadow.mp4" type="video/mp4">
         </video>
@@ -23,7 +23,7 @@
                 <span>MENU</span>
             </div>
             <ul class="menu">
-                <span>Bem-Vindo a Família</span>
+                <span>Bem-Vindo à Família</span>
                 <li class="menu__itens">
                     <a class="menu__itens__link" href="#home">Home</a>
                 </li>
@@ -54,29 +54,35 @@
             <p class="hero__text">Lugar de Amor e Restauração</p>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id="sobre">
         <div class="about__content">
             <div class="about__content__text">
                 <h1 class="about__content__text--title">Quem Somos</h1>
-                <p class="about__content__text--description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident ad, eius corporis, recusandae facilis quod quaerat ipsa,
-                    rerum nemo alias inventore doloribus expedita veniam asperiores.
-                    Ullam nostrum eum adipisci eaque.
+                <p class="about__content__text--description">A Igreja LAR em Maceió,
+                    guiada pelo casal de pastores Manoel e Amanda, é uma filha
+                    que tem suas raízes na Igreja LAR de Ipatinga (sede), fundada pelo Apóstolo Valdir.
+                    Nós somos uma igreja profética e missionária e
+                    <strong>comprometida</strong> em levar o amor de Cristo para todos.
                 </p>
-                <p class="about__content__text--description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident ad, eius corporis, recusandae facilis quod quaerat ipsa,
-                    rerum nemo alias inventore doloribus expedita veniam asperiores.
-                    Ullam nostrum eum adipisci eaque.
+                <p class="about__content__text--description">Nosso propósito vai além de ser apenas uma igreja.
+                    Somos uma <strong>família</strong> acolhedora, onde cada pessoa encontra seu lugar de pertencimento.
+                    Aqui, buscamos viver de acordo com os princípios da Palavra de Deus,
+                    buscando sempre uma vida transformada por meio do <strong>poder do Espírito Santo</strong>.
+                </p>
+                <p class="about__content__text--description">
+                    <strong>Na Igreja LAR em Maceió</strong>, valorizamos o ensino da Palavra,
+                    a adoração fervorosa, a busca pela presença de Deus e
+                    a prática do amor ao próximo.
                 </p>
             </div>
-            <img src="https://via.placeholder.com/400x400" alt="">
+            <img src="./images/sobre.png" alt="culto na igreja lar maceió">
         </div>
     </section>
-    <section class="event event--tck">
+    <section class="event event--tck" id="eventos">
         <div class="event__content">
             <h1 class="event__content__title">Eventos</h1>
             <div class="event__content__ticket">
-                <img src="https://via.placeholder.com/240x160" alt="">
+                <img src="./images/conferência.png" alt="arte de uma conferência evangélica">
                 <div class="event__ticket">
                     <h2 class="event__ticket__text">Conferência: O peso da glória</h2>
                     <p class="event__ticket__info">
@@ -97,7 +103,7 @@
                 <button class="button">Fazer Inscrição</button>
             </div>
             <div class="event__content__ticket">
-                <img src="https://via.placeholder.com/240x160" alt="">
+                <img src="./images/acamp.png" alt="arte de evento de jovens">
                 <div class="event__ticket" id="second">
                     <h2 class="event__ticket__text" id="txt">Acamp Connect 2023</h2>
                     <p class="event__ticket__info">
@@ -119,60 +125,61 @@
             </div>
         </div>
     </section>
-    <section class="atividades">
+    <section class="atividades" id="atividades">
         <div class="container">
             <div class="row text">
                 <h1 class="row__title">Nossas atividades</h1>
             </div>
             <div class="row mt-4 content">
                 <div class="col-md-4">
-                    <img src="https://via.placeholder.com/240x160" alt="" class="d-block w-100 rounded mb-2">
+                    <img src="./images/culto1.png" alt="pessoas num culto evangélico" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title">
                         <i class="bi bi-people-fill"></i>
                         Cultos
                     </h3>
                     <p>
-                        Nosso momento de oração onde toda a igreja é convocada para um relacionamento com Deus.
-                        <p><strong>Terça-feira</strong> - Sala de oração: 09h30-15h  Intercessão: 19h30-22h</p>
+                        Aguardamos sua presença com a gente!
+                        <p><strong>Quinta-feira</strong> - 19h30-21h30</p>
+                        <p><strong>Domingo</strong> - 19h30-21h30</p>
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="https://via.placeholder.com/240x160" alt="" class="d-block w-100 rounded mb-2">
+                    <img src="./images/discipulado2.png" alt="pessoas em casa cultuando a Deus" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title">
                         <i class="bi bi-house-fill"></i>
                         DiscipuLAR
                     </h3>
-                    <p>
-                        Nosso momento de oração onde toda a igreja é convocada para um relacionamento com Deus.
-                        <p><strong>Terça-feira</strong> - Sala de oração: 09h30-15h  Intercessão: 19h30-22h</p>
+                    <p id="modifica">
+                        Desejamos por algo além dos cultos. Uma intimidade sem barreiras.
+                        <p><strong>Segunda-feira (quinzenal)</strong> - 19h30-20h30</p>
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <img src="https://via.placeholder.com/240x160" alt="" class="d-block w-100 rounded mb-2">
+                    <img src="./images/oração.png" alt="pessoa orando numa igreja" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title">
                         <i class="bi bi-fingerprint"></i>
                         Intercessão
                     </h3>
-                    <p>
+                    <p id="modifica">
                         Nosso momento de oração onde toda a igreja é convocada para um relacionamento com Deus.
-                        <p><strong>Terça-feira</strong> - Sala de oração: 09h30-15h  Intercessão: 19h30-22h</p>
+                        <p><strong>Terça-feira</strong> - Intercessão: 19h30-22h</p>
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="https://via.placeholder.com/240x160" alt="" class="d-block w-100 rounded mb-2">
+                <div class="col-md-4 pb-0">
+                    <img src="./images/escola.png" alt="bíblia aberta com um lápis para anotações" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title">
                         <i class="bi bi-book-half"></i>
                         Escola de Princípios
                     </h3>
-                    <p>
-                        Um estudo mais aprofundado da Palavra ministrada por nossos professores.
-                        <p><strong>Sexta-feira:</strong> 19h30-22h</p>
+                    <p id="modifica">
+                        Um estudo mais aprofundado da Palavra, ministrada por nossos professores.
+                        <p><strong>Sexta-feira:</strong> 19h30-21h30</p>
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="ofertas">
+    <section class="ofertas" id="ofertas">
         <div class="ofertas__content">
             <div class="container">
                 <h1 class="container__title">Generosidade e Compromisso</h1>
@@ -194,6 +201,92 @@
             <button class="button">Ofertar</button>
         </div>
     </section>
+    <section class="advertising">
+        <div class="advertising__content">
+            <h1>Sua próxima família</h1>
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <div class="container">
+            <h1>Contato</h1>
+        </div>
+        <div class="content">
+            <div>
+                <img src="./images/logo_oficial.jpg" alt="logo da igreja">
+            </div>
+            <div class="content__church">
+                <h3>Igreja</h3>
+                <ul class="content__church__links">
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sobre">
+                            Quem Somos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#eventos">
+                            Eventos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#atividades">
+                            Atividades
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ofertas">
+                            Ofertas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contato">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content__midias">
+                <h3>Nossas mídias</h3>
+                <ul class="content__midias__links">
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/lar.maceio/">
+                            Instagram<i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/@LARMACEIOTV">
+                            YouTube<i class="bi bi-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content__endereco">
+                <h3>
+                    <i class="bi bi-cursor-fill"></i>
+                    Endereço
+                </h3>
+                <a target="_blank" href="https://goo.gl/maps/pTQ8HVTfFmtCrwDS9">R. Fernando Júnior, 551 - Gruta de Lourdes, Maceió - AL, 57052-715</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./images/logo-lar.png" alt="logo da igreja">
+        <p class="text--small">
+            ® 2023 Igreja Lar Maceió. Todos os direitos reservados.
+        </p>
+        <p class="text--small">
+            A Igreja Lar Maceió é uma organismo vivo sem fins lucrativos, baseado nos princípios bíblicos.
+            Nós somos um membro do corpo da nossa sede que fica em Ipatinga-MG (Brasil).
+            Nós estamos na R. Fernando Júnior, 551 - Gruta de Lourdes, Maceió/AL - CEP 57052-715,
+            Brasil e CNPJ/M XX.XXX.XXX/XXXX-XX
+        </p>
+        </div>
+    </footer>
     <script src="scripts/main.js"></script>
 </body>
 </html>
