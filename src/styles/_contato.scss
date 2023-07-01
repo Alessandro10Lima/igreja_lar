@@ -1,3 +1,4 @@
+
 .contato{
     padding-bottom: 80px;
 
@@ -147,16 +148,23 @@
 
                 &__links{
                     display: block;
+                    padding-left: 10px;
 
                     li{
                         padding-bottom: 6px;
                         letter-spacing: 1px;
+                        margin-bottom: 6px;
 
                         .bi-youtube{
                             padding-right: 6px;
                     }
                 }
             }
+        }
+
+        &__endereco{
+            max-width: 90%;
+            margin-left: 16px;
         }
     }
 }

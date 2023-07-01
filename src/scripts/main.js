@@ -58,3 +58,4 @@ document.addEventListener("click", (event) => {
         mobileNavbar.handleClick();
     }
 });
+

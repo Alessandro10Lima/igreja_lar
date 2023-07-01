@@ -1,3 +1,4 @@
+
 .event{
     &--tck{
         // background-image: linear-gradient(90deg,#ffde59,#ff914d)
@@ -86,7 +87,6 @@
 
 @media (max-width: 767px){
     .event{
-        height: 170vh;
 
         &--tck{
             background-image: linear-gradient(180deg, #fff, #ffffff);
@@ -94,6 +94,7 @@
 
         &__content{
             max-width: 90%;
+            padding-bottom: 0;
 
             &__title{
                 text-align: center;
