@@ -69,3 +69,36 @@
         }
     }
     }
+
+    @media  (min-width: 768px) and (max-width: 1023px){
+        .about{
+    
+            &__content{
+                max-width: 90%;
+                width: 80%;
+                display: block;
+    
+                img{
+                    display: none;
+                    width: 100%;
+                }
+    
+                &__text{
+    
+                    img{
+                        display: none;
+                    }
+    
+                    &--title{
+                        text-align: center;
+                        font-size: 36px;
+                    }
+
+                    &--description{
+                        text-align: center;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }

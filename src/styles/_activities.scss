@@ -44,13 +44,14 @@
 
 @media (max-width: 767px){
     .atividades{
-
         .container{
             max-width: 90%;
             padding: 40px 0;
 
             .content{
                 display: block;
+                max-width: 90%;
+                margin: 0 auto;
             }
 
             .row__title{
@@ -64,6 +65,10 @@
                 text-align: center;
                 padding-bottom: 40px;
 
+                img{
+                    height: 40vh;
+                }
+
                 #modifica{
                     max-width: 80%;
                     margin: 12px auto;
@@ -71,6 +76,50 @@
 
                 p{
                     font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 1023px){
+    .atividades{
+
+        .container{
+            max-width: 90%;
+            padding: 40px 0;
+
+            .content{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .row__title{
+                text-align: center;
+                margin-bottom: 10px;
+                font-size: 36px;
+            }
+    
+            .col-md-4{
+                width: 100%;
+                text-align: center;
+                padding-bottom: 40px;
+
+                .section-title{
+                    font-size: 28px;
+                }
+
+                img{
+                    height: 30vh;
+                }
+
+                #modifica{
+                    max-width: 80%;
+                    margin: 12px auto;
+                }
+
+                p{
+                    font-size: 16px;
                 }
             }
         }

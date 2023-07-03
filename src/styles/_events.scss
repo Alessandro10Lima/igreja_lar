@@ -106,42 +106,116 @@
             &__ticket{
                 display: block;
 
+                #second{
+                    margin-right: 0;
+                }
+
+                .event__ticket{
+                    margin-right: 0%;
+                    padding-right: 0px;
+        
+                    &__text{
+                        font-size: 16px;
+                        text-align: center;
+                        margin: 0px auto;
+                        margin-top: 20px;
+                        margin-bottom: 15px;
+                    }
+
+                    #ipad{
+                        margin: 0 auto;
+                        margin-bottom: 1rem;
+                        font-weight: bold;
+                        width: 300px;
+                    }
+
+                    &__info{
+                        text-align: center;
+                        margin-left: 0;
+                        font-weight: bold;
+                    }
+        
+                    #txt{
+                        text-align: center;
+                    }
+                }
+
                 img{
                     width: 90%;
                     border-radius: 3px;
                     margin-top: 9px;
                     margin-left: 16px;
+                    height: 40vh;
                 }
 
                 .button{
-                    margin: 20px 35px;
-                    width: 80%;
-                    height: 50px;
-                    font-size: 20px;
+                    margin: 15px 70px;
+                    width: 200px;
+                    height: 44px;
+                    font-size: 18px;
                 }
-            }
-        }
-
-        &__ticket{
-            margin-right: 0%;
-            padding-right: 5px;
-
-            &__text{
-                font-size: 16px;
-                // text-align: center;
-                margin: 30px auto;
-            }
-
-            #txt{
-                text-align: center;
-            }
-
-            &__info{
-                font-weight: bold;
-                font-size: 14px;
-                gap: 14px;
-                margin-left: 40px;
             }
         }
     }
 }
+
+@media  (min-width: 768px) and (max-width: 1023px){
+    .event{
+
+        &__content{
+            max-width: 90%;
+            width: 80%;
+
+            &__title{
+                text-align: center;
+                font-size: 36px;
+            }
+
+            &__ticket{
+                display: block;
+                text-align: center;
+
+                #second{
+                    margin-right: 0;
+                }
+
+                .event__ticket{
+                &__text{
+                    margin-left: 0;
+                    padding-bottom: 20px;
+                    font-size: 32px;
+                }
+                
+                #ipad{
+                    width: 560px;
+                    margin: 0 auto;
+                }
+
+                &__info{
+                    margin: 0 auto;
+                    margin-left: 0;
+                    font-size: 22px;
+                    
+                }
+            }
+
+                img{
+                    width: 100%;
+                    height: 30vh;
+                    border: 1px solid #000;
+                }
+
+                .button{
+                    width: 300px;
+                    height: 60px;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+            }
+        }
+            &__info{
+                margin: 0 auto;
+                margin-left: 0;
+            }
+        }
+    }

@@ -104,3 +104,49 @@
             }
         }
     }
+
+    @media  (min-width: 768px) and (max-width: 1023px){
+        .ofertas{
+            &__content{
+                padding-top: 20px;
+
+                .container{
+                    padding-bottom: 30px;
+
+                    &__title{
+                        font-size: 50px;
+                        width: 360px;
+                        margin: 0 auto;
+                    }
+                }
+                .ofertas__text{
+                    width: 80%;
+
+                    &__versiculo{
+                        font-size: 20px;
+                        width: 520px;
+                        margin: 0 auto;
+
+                    }
+
+                    span{
+                        font-size: 20px;
+                    }
+
+                    &__description{
+                        font-size: 20px;
+                        width: 540px;
+                        margin: 0 auto;
+                        padding-top: 44px;
+                    }
+                }
+
+                .button{
+                    width: 200px;
+                    height: 55px;
+                    font-size: 18px;
+                    margin: 40px 0;
+                }
+            }
+        }
+    }
