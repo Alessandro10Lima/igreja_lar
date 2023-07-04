@@ -108,6 +108,7 @@
 
             &__ticket{
                 display: block;
+                padding-bottom: 30px;
 
                 #second{
                     margin-right: 0;
@@ -116,6 +117,7 @@
                 .event__ticket{
                     margin-right: 0%;
                     padding-right: 0px;
+                    padding-bottom: 20px;
         
                     &__text{
                         font-size: 16px;
@@ -152,10 +154,11 @@
                 }
 
                 a.button{
-                    margin: 15px 70px;
-                    width: 200px;
-                    height: 44px;
+                    margin: 15px 76px;
+                    // width: 200px;
+                    // height: 44px;
                     font-size: 18px;
+                    padding: 10px;
                 }
             }
         }
@@ -177,12 +180,15 @@
             &__ticket{
                 display: block;
                 text-align: center;
+                padding-bottom: 50px;
 
                 #second{
                     margin-right: 0;
                 }
 
                 .event__ticket{
+                    padding-bottom: 60px;
+
                 &__text{
                     margin-left: 0;
                     padding-bottom: 20px;
@@ -213,6 +219,7 @@
                     height: 60px;
                     font-size: 22px;
                     font-weight: bold;
+                    padding: 16px;
                 }
             }
         }
