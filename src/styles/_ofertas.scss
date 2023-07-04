@@ -121,6 +121,7 @@
                 }
                 .ofertas__text{
                     width: 80%;
+                    padding-bottom: 20px;
 
                     &__versiculo{
                         font-size: 20px;
@@ -141,11 +142,11 @@
                     }
                 }
 
-                .button{
-                    width: 200px;
-                    height: 55px;
+                a.button{
+                    padding: 12px 20px;
                     font-size: 18px;
                     margin: 40px 0;
+                    text-decoration: none;
                 }
             }
         }

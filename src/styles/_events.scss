@@ -68,7 +68,7 @@
         
     }
 
-    button{
+    a.button{
         color: #1a1a1a;
         font-weight: bold;
         text-transform: uppercase;
@@ -78,6 +78,9 @@
         border: none;
         border-radius: 30px;
         background-image: linear-gradient(90deg, #ffde59, #ff914d);
+        text-decoration: none;
+        padding-left: 16px;
+        padding-top: 8px;
 
         &:hover{
             background-image: linear-gradient(90deg, #ff7520, #ffdc51);
@@ -148,7 +151,7 @@
                     height: 40vh;
                 }
 
-                .button{
+                a.button{
                     margin: 15px 70px;
                     width: 200px;
                     height: 44px;
@@ -205,7 +208,7 @@
                     border: 1px solid #000;
                 }
 
-                .button{
+                a.button{
                     width: 300px;
                     height: 60px;
                     font-size: 22px;
